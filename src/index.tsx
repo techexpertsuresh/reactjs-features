@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { App } from "./00-boilerplate/app";
+//import { App } from "./00-boilerplate/app";
 //import { App } from "./01-use-state/app";
 //import { App } from "./02-use-state-object/app";
-//import { App } from "./03-component-did-onload/app";
+import { App } from "./03-component-did-onload/app";
 //import { App } from "./04-component_unmount/app";
 //import { App } from "./05-component-update-render/app";
 //import { App } from "./06-ajax-field-change/app";

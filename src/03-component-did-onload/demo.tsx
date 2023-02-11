@@ -1,5 +1,5 @@
 import React from "react";
-
+/*
 export const MyComponent = () => {
   const [username, setUsername] = React.useState("");
 
@@ -17,3 +17,21 @@ export const MyComponent = () => {
     </>
   );
 };
+*/
+
+
+export const MyComponent:React.FC = () => {
+  const[name, setName] = React.useState("");
+
+  React.useEffect(() => {
+    setTimeout(() => {
+      setName("Suresh");
+    },1500);
+  },[]);
+
+  return (<>
+    <h4>{name}</h4>
+    <input value={name} onChange={(e) => setName(e.target.value)} />
+  </>);
+
+}
