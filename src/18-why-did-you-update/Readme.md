@@ -201,7 +201,7 @@ export const MyComponent = () => {
     </div>
   );
 };
-
+ 
 interface Name {
   firstname: string;
   lastname: string;
